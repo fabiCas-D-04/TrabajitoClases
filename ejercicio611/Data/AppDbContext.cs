@@ -1,11 +1,12 @@
-﻿using EJERCICIO04112025.models;
+﻿using ejercicio611.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace EJERCICIO04112025.Data
+namespace ejercicio611.Data
 {
     public class AppDbContext : DbContext
     {
-        public DbSet <User> Users { get; set; }
+        public DbSet<User> Users { get; set; }
 
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
     }

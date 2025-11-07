@@ -1,4 +1,4 @@
-namespace EJERCICIO04112025.models
+namespace ejercicio611
 {
     public class WeatherForecast
     {

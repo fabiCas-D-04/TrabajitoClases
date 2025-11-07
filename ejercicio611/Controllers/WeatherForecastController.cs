@@ -1,7 +1,6 @@
-using EJERCICIO04112025.models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EJERCICIO04112025.Controllers
+namespace ejercicio611.Controllers
 {
     [ApiController]
     [Route("[controller]")]

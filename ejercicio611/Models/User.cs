@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace EJERCICIO04112025.models
+namespace ejercicio611.Models
 {
     public class User
     {
@@ -11,8 +11,7 @@ namespace EJERCICIO04112025.models
         public string Email { get; set; } = string.Empty;
         [Required]
         public string Password { get; set; } = string.Empty;
-        public string LastName { get; set; }
-        public string FullName = $"Name LastName";
+
         public DateTime FechaNacimiento { get; set; }
         public int edad;
     }

@@ -1,5 +1,7 @@
-using EJERCICIO04112025.Data;
-using EJERCICIO04112025.Services;
+using System;
+using ejercicio611.Data;
+using ejercicio611.Services;
+using ejercicio611.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
