@@ -14,5 +14,6 @@ namespace ejercicio611.Models
 
         public DateTime FechaNacimiento { get; set; }
         public int edad;
+        public int IdRole { get; set; }
     }
 }
